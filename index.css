@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+ 
+}
+
+#temperatureInput {
+  padding: 10px;
+  margin: 10px 0px;
+  border:  1px solid #ccc;
+  border-radius: 7px;
+  font-size: 15px;
+  width: 220px;
+}
+
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #007BFF;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#input {
+      margin-top: 25px;
+      font-size: 1.2em;
+}
